@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    display: grid; 
+    grid-template-columns: 1fr 50px;
+    align-items: center; 
+}
+
+.title,
+.hamburger-icon {
+    color: white; 
+    background-color: black; 
+    padding: 20px; 
+}
+
+.hamburger-icon:hover {
+    background-color: gray; 
+    cursor: pointer; 
+}
+
+.menu-content {
+    display: flex; 
+    flex-direction: column; 
+    grid-column: 1 / 3; 
+}
+
+.menu-item {
+    padding: 10px; 
+    border: 1px solid gray; 
+    text-decoration: none; 
+    color: black; 
+    
+    transition: 250ms;
+}
+
+.menu-item:hover {
+    background-color: gray; 
+    color: white; 
+}
+
+
+
+.content {
+    background-color: grey;
+    padding: 20px; 
+}
+
+.hidden {
+    display: none; 
+}
